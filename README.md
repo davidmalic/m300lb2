@@ -58,7 +58,7 @@ K2
 ## Persönlicher Wissenstand
 
 - Docker / Container:
-Kein plan
+  Ich habe zwar schon von Docker und Containern gehört mich aber leider nie mit diesem Thema befasst.
 
 
 
