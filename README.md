@@ -1,4 +1,4 @@
-M300 - LB1
+M300 - LB2
 ======
 
 Diese Repository behandelt die Umsetzung von der LB2.
