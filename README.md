@@ -52,6 +52,16 @@ Abhilfe bietet hier Vagrant. Vagrant ist eine freie Ruby-Anwendung zur Erstellun
 Bis hierhin haben wir soweit alles aufgesetzt und installiert. Nun möchten wir für effizienteres Arbeiten eine "Entwicklungsumgebung" aufbauen, die es uns ermöglicht, alle lokalen Repositories an einem Ort zu verwalten und die dazugehörigen Dateien zu bearbeiten. Die Lösung hierzu ist: Visual Studio Code 
 Dieser freie Quelltext-Editor von Microsoft, ermöglicht uns, unsere Workflows besser zu gestalten und damit die Arbeit um einiges leichter zu machen.
 
+K2
+======
+
+## Persönlicher Wissenstand
+
+- Docker / Container:
+Kein plan
+
+
+
 K5
 ======
 
@@ -63,4 +73,4 @@ Ich könnte während diesem Projekt sehr viel neues über Docker und insbesonder
 
 ## Reflexion
 
-Dieses Projekt lief meiner Meinung nach sehr gut. Ich kam schnell voran und konnte bis zum Ende des Projektes mein Projekt gut abschliessen, sodass ich mit dem Endresultat zufrieden war. Während der Realisierung hatte ich zwischenzeitlich Schwierigkeiten mit dem Kubernetes Networking, die ich dann aber alle lösen konnte.
+Dieses Projekt war sehr lehrreich. Ich hatte gegen den Schluss ein bisschen Zeitdruck da ich die Zeit nicht optimal geplant habe. Mit dem Endresultat bin ich aber trotzdem zufrieden. Ich habe auch gemerkt wie wichtig Docker ist und das es bestimmt in Zukunft noch viel wichter sein wird. 
