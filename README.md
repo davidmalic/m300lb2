@@ -1,4 +1,11 @@
-# Dokumentation Modul 300 LB02
+M300 - LB1
+======
+
+Diese Repository behandelt die Umsetzung von der LB2.
+
+## Einleitung
+Diese Dokumentation wurde von David Malic im Rahmen des Moduls M300 (Plattformübergreifende Dienste in ein Netzwerk integrieren)
+erarbeitet und zeigt alle Schritte auf, die es braucht um die LB2-Kriterien zu erfüllen.
 
 ## Inhaltsverzeichnis
 
