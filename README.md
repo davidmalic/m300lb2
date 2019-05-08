@@ -64,6 +64,24 @@ K2
   Von Microservices habe ich ebenfalls schon öfters gehört und kenne es nur ein bisschen aus der Theorie. In der Praxis habe ich es nie angewandt und kenne mich deswegen auch nicht sehr gut aus.
 
 
+K2
+======
+
+## Kennt die Docker spezifischen Befehle
+
+| Befehl       | Beschreibung                                       |
+| ------------ | -------------------------------------------------- |
+| docker run   | Führt ein Befehl in einem neuen Container aus      |
+| docker start | Startet einen oder mehrere gestoppte Container     |
+| docker stop  | Stoppt einen oder mehrere laufende ontainer        |
+| docker build | Erstellt ein Image aus einem Docker-File           |
+| docker pull  | Ladet ein Image aus der Registry                   |
+| docker push  | Ladet ein Image in die Registry hoch               |
+| docker exec  | Führ einen Befehl in einem laufenden Container aus |
+| docker ps | Überblick über die aktuellen Container, wie z.B. Namen, IDs und Status
+| docker images | Liste lokaler Images aus, wobei Informationen zu Repository-Namen, Tag-Namen und Grösse enthalten sind
+| docker rm | Entfernt einen oder mehrere Container. Gibt die Namen oder IDs erfolgreich gelöschter Container zurück
+
 K5
 ======
 
