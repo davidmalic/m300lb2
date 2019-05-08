@@ -2,10 +2,37 @@
 
 ## Inhaltsverzeichnis
 
--   01 - Einstieg
--   02 - Docker / Kubernetes Umsetzung
--   03 - Sicherheitsaspekte
--   04 - Abschluss
+* K1
+  * VirtualBox
+  * Vagrant
+  * Visualstudio-Code
+  * Git-Client
+  * SSH-Key für Client erstellt
+* K2
+  * Github oder Gitlab-Account ist erstellt
+  * Git-Client wurde verwendet
+  * Dokumentation ist als Mark Down vorhanden
+  * Mark down-Editor ausgewählt und eingerichtet
+  * Mark down ist strukturiert
+  * Persönlicher Wissenstand
+  * Wichtige Lernschritte sind dokumentiert
+* K3
+  * Bestehenden Docker-Dontainer kombinieren
+  * Bestehende Container als Backend, Desktop-App als Frontend einsetzen
+  * Volumes zur persistenten Datenablage eingerichtet
+  * Kennt die Docker spezifischen Befehle
+  * Eingerichtete Umgebung ist dokumentiert (Umgebungs-Variablen, Netzwerkplan gezeichnet, Schichtenmodell, Sicherheitsaspekte)
+  * Funktionsweise getestet inkl. Dokumentation der Testfälle
+  * Projekt mit Git und Mark Down dokumentiert
+* K4
+ * Service-Überwachung ist eingerichtet
+ * Aktive Benachrichtigung ist eingerichtet
+ * mind. 3 Aspekte der Container-Absicherung sind berücksichtigt
+ * Sicherheitsmassnahmen sind dokumentiert (Bezug zur eingerichteten Umgebung ist vorhanden)
+ * Projekt mit Git und Markdown dokumentiert
+* K5
+  * Vergleich Vorwissen - Wissenzuwachs
+  * Reflexion
 
 ---
 
