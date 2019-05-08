@@ -25,11 +25,11 @@
   * Funktionsweise getestet inkl. Dokumentation der Testfälle
   * Projekt mit Git und Mark Down dokumentiert
 * K4
- * Service-Überwachung ist eingerichtet
- * Aktive Benachrichtigung ist eingerichtet
- * mind. 3 Aspekte der Container-Absicherung sind berücksichtigt
- * Sicherheitsmassnahmen sind dokumentiert (Bezug zur eingerichteten Umgebung ist vorhanden)
- * Projekt mit Git und Markdown dokumentiert
+  * Service-Überwachung ist eingerichtet
+  * Aktive Benachrichtigung ist eingerichtet
+  * mind. 3 Aspekte der Container-Absicherung sind berücksichtigt
+  * Sicherheitsmassnahmen sind dokumentiert (Bezug zur eingerichteten Umgebung ist vorhanden)
+  * Projekt mit Git und Markdown dokumentiert
 * K5
   * Vergleich Vorwissen - Wissenzuwachs
   * Reflexion
