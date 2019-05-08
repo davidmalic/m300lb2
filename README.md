@@ -6,14 +6,7 @@
   * VirtualBox
   * Vagrant
   * Visualstudio-Code
-  * Git-Client
-  * SSH-Key für Client erstellt
 * K2
-  * Github oder Gitlab-Account ist erstellt
-  * Git-Client wurde verwendet
-  * Dokumentation ist als Mark Down vorhanden
-  * Mark down-Editor ausgewählt und eingerichtet
-  * Mark down ist strukturiert
   * Persönlicher Wissenstand
   * Wichtige Lernschritte sind dokumentiert
 * K3
