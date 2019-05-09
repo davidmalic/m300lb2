@@ -81,6 +81,8 @@ K2
 | docker ps | Überblick über die aktuellen Container, wie z.B. Namen, IDs und Status
 | docker images | Liste lokaler Images aus, wobei Informationen zu Repository-Namen, Tag-Namen und Grösse enthalten sind
 | docker rm | Entfernt einen oder mehrere Container. Gibt die Namen oder IDs erfolgreich gelöschter Container zurück
+| docker rmi | Löscht das oder die angegebenen Images. Diese werden durch ihre ID oder Repository- und Tag-Namen spezifiziert
+| docker logs | Gibt die "Logs" für einen Container aus. Dabei handelt es sich einfach um alles, was innerhalb des Containers nach STDERR oder STDOUT geschrieben wurde.
 
 K5
 ======
@@ -111,15 +113,3 @@ Zahlreiche Optionen für dauerhafte Datenspeicherung (Persistent Storage)
 
 Container sind zustandslos. Für die dauerhafte Speicherung von Konfigurations- und Nutzerdaten bietet Kubernetes Schnittstellen zu zahlreichen Diensten wie zum Beispiel EBS von Amazon Web Services oder Google Cloud Platform.
 
-
-    +---------------------------------------------------------------+
-    ! Container: Nginx Frontend Webserver - 34.65.185.255:80        !
-    ! Container: Python Flask Backend API - 34.65.90.233:8080       !
-    ! Container: MySQL Datenbank - Hostname: mysql - no public IP   !
-    +---------------------------------------------------------------+
-    ! Container-Engine: Docker                                      !
-    +---------------------------------------------------------------+
-    ! Kubernetes Umgebung Google Cloud (GKE) - 3 Node Cluster       !
-    +---------------------------------------------------------------+
-    ! Notebook macOS - Schulnetz 10.x.x.x                           !
-    +---------------------------------------------------------------+
