@@ -64,8 +64,6 @@ K2
   Von Microservices habe ich ebenfalls schon öfters gehört und kenne es nur ein bisschen aus der Theorie. In der Praxis habe ich es nie angewandt und kenne mich deswegen auch nicht sehr gut aus.
 
 
-K2
-======
 
 ## Kennt die Docker spezifischen Befehle
 
@@ -97,7 +95,14 @@ Ich könnte während diesem Projekt sehr viel neues über Docker und insbesonder
 
 Dieses Projekt war sehr lehrreich. Ich hatte gegen den Schluss ein bisschen Zeitdruck da ich die Zeit nicht optimal geplant habe. Mit dem Endresultat bin ich aber trotzdem zufrieden. Ich habe auch gemerkt wie wichtig Docker ist und das es bestimmt in Zukunft noch viel wichter sein wird. 
 
+## K4
 
+### Sicherheitsaspekte
+
+-   Lediglich der Port 80 des Web-Frontends und der Port 8080 der API wurdem via `LoadBalancer` nach Aussen freigegeben
+-   Container laufen in einer dedizierten virtuellen Maschine in der Google Cloud
+-   Die verwendeten Images definieren einen Benutzer und laufen nicht direkt als root
+-   In Kubernetes wurden die Container in einzelne Deployments aufgeteilt
 
 K6
 ======
