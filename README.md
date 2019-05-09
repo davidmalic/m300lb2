@@ -82,6 +82,20 @@ K2
 | docker rmi | Löscht das oder die angegebenen Images. Diese werden durch ihre ID oder Repository- und Tag-Namen spezifiziert
 | docker logs | Gibt die "Logs" für einen Container aus. Dabei handelt es sich einfach um alles, was innerhalb des Containers nach STDERR oder STDOUT geschrieben wurde.
 
+
+
+## K4
+
+### Sicherheitsaspekte
+
+-   In Kubernetes wurden die Container in einzelne Deployments aufgeteilt
+-   Lediglich der Port 80 des Web-Frontends und der Port 8080 der API wurdem via `LoadBalancer` nach Aussen freigegeben
+-   Container laufen in einer dedizierten virtuellen Maschine in der Google Cloud
+-   Die verwendeten Images definieren einen Benutzer und laufen nicht direkt als root
+
+
+
+
 K5
 ======
 
@@ -95,14 +109,6 @@ Ich könnte während diesem Projekt sehr viel neues über Docker und insbesonder
 
 Dieses Projekt war sehr lehrreich. Ich hatte gegen den Schluss ein bisschen Zeitdruck da ich die Zeit nicht optimal geplant habe. Mit dem Endresultat bin ich aber trotzdem zufrieden. Ich habe auch gemerkt wie wichtig Docker ist und das es bestimmt in Zukunft noch viel wichter sein wird. 
 
-## K4
-
-### Sicherheitsaspekte
-
--   Lediglich der Port 80 des Web-Frontends und der Port 8080 der API wurdem via `LoadBalancer` nach Aussen freigegeben
--   Container laufen in einer dedizierten virtuellen Maschine in der Google Cloud
--   Die verwendeten Images definieren einen Benutzer und laufen nicht direkt als root
--   In Kubernetes wurden die Container in einzelne Deployments aufgeteilt
 
 K6
 ======
