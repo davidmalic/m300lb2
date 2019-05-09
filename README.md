@@ -25,14 +25,13 @@ erarbeitet und zeigt alle Schritte auf, die es braucht um die LB2-Kriterien zu e
   * Funktionsweise getestet inkl. Dokumentation der Testfälle
   * Projekt mit Git und Mark Down dokumentiert
 * K4
-  * Service-Überwachung ist eingerichtet
-  * Aktive Benachrichtigung ist eingerichtet
-  * mind. 3 Aspekte der Container-Absicherung sind berücksichtigt
-  * Sicherheitsmassnahmen sind dokumentiert (Bezug zur eingerichteten Umgebung ist vorhanden)
-  * Projekt mit Git und Markdown dokumentiert
+  * Sicherheitsaspekte
+  * Testfall
 * K5
   * Vergleich Vorwissen - Wissenzuwachs
   * Reflexion
+* K6
+  * Kubernetes
 
 ___
 
@@ -84,16 +83,20 @@ K2
 
 
 
-## K4
+K4
+======
 
-### Sicherheitsaspekte
+## Sicherheitsaspekte
 
--   In Kubernetes wurden die Container in einzelne Deployments aufgeteilt
--   Lediglich der Port 80 des Web-Frontends und der Port 8080 der API wurdem via `LoadBalancer` nach Aussen freigegeben
--   Container laufen in einer dedizierten virtuellen Maschine in der Google Cloud
+-   Nur der Port 80 ist freigegeben
+-   Container laufen auf einem sicheren PC.
 -   Die verwendeten Images definieren einen Benutzer und laufen nicht direkt als root
 
+## Testfall
 
+| Testfall                                                                                                                               | Resultat                                                                                                               |
+| -------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| Vom Client (192.168.55.1) auf localhost:8080 zugreifen                                                                          | Funktioniert. Die Homepage des Webservers wird angezeigt                                                               |
 
 
 K5
@@ -101,9 +104,7 @@ K5
 
 ## Vergleich Vorwissen / Wissenszuwachs
 
-Hauptsächlich konnte ich während dieses Projektes Fähigkeiten verbessern. Die Vagrant-Grundlagen habe ich bereits gekannt, konnte hier aber erstmals mit einem Multi-VM-System arbeiten. Allerdings habe ich zuvor noch nie Shell-Scripts für die automatisierte Installation von Diensten erstellt, was sehr lehrreich war.
-
-Ich könnte während diesem Projekt sehr viel neues über Docker und insbesondere Kubernetes mit Google Cloud lernen, da ich zuvor erst mit Docker an sich gearbeitet habe. Deshalb habe ich mir in sehr vielen Gebieten neues Wissen zu Kubernetes aneignen können und auch ein paar neue Dinge bezüglich Docker gelernt.
+Mein Wissen vor dem Projekt bez. Docker etc. war sehr beschränkt. Ich habe von Docker nur ab und zu gehört sonst auch nicht mehr. Durch dieses Projekt konnte ich lernen wie man Docker richtig anwendet und wie wichtig es ist. Generell habe ich mein Wissen im Docker und Container Bereich sehr erweitern können.
 
 ## Reflexion
 
