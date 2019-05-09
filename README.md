@@ -94,3 +94,19 @@ Ich könnte während diesem Projekt sehr viel neues über Docker und insbesonder
 ## Reflexion
 
 Dieses Projekt war sehr lehrreich. Ich hatte gegen den Schluss ein bisschen Zeitdruck da ich die Zeit nicht optimal geplant habe. Mit dem Endresultat bin ich aber trotzdem zufrieden. Ich habe auch gemerkt wie wichtig Docker ist und das es bestimmt in Zukunft noch viel wichter sein wird. 
+
+
+
+K6
+======
+
+## Kubernetes 
+
+Kubernetes fasst Container-Images, ihre Konfiguration und die Anzahl der benötigten Instanzen in Deployments zusammen, so der Sprachgebrauch des Orchestrierungssystems. Die Parameter eines Deployments überwacht Kubernetes selbsttätig. Das Tool sorgt dafür, dass die gewünschte Anzahl von Containern jederzeit läuft. Änderungen an der Software oder der Konfiguration verteilt Kubernetes mit einem Rollout. Dieser Prozess lässt sich pausieren, fortsetzen und rückgängig machen (Rollback).
+
+Optimierung der Nutzung der Computer-Ressourcen
+Kubernetes setzt die Container eines Deployments selbständig dort ein, wo entsprechende Ressourcen frei sind. Der Anwender kann Mindest- und Höchstwerte der Ressourcennutzung (Rechenzeit, Speicherplatz) für die Container festlegen, um dem Orchestrierungstool einen Rahmen vorzugeben.
+
+Zahlreiche Optionen für dauerhafte Datenspeicherung (Persistent Storage)
+
+Container sind zustandslos. Für die dauerhafte Speicherung von Konfigurations- und Nutzerdaten bietet Kubernetes Schnittstellen zu zahlreichen Diensten wie zum Beispiel EBS von Amazon Web Services oder Google Cloud Platform.
